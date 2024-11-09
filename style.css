@@ -2,8 +2,36 @@
     body{
         background-color:rgb(22, 36, 63);
         text-align: center;
+      
+      
+      }
+      #login{
+        background-color: gray;
+        background-image: url("paisagem.jfif");
+        opacity: 0.8;
+      }
+
+      #menu{
+        background-color: rgb(164, 177, 162);
+        background-image: url(mercado\ fenanceiro);
       }
       
+      #experiencias{
+        background-color: rgb(33, 39, 54);}
+
+
+        #formacao {
+          background-color: rgb(48, 109, 8);
+        }
+
+      
+      #dadospessoais {
+        background-color: rgb(173, 116, 29);
+      }
+      
+
+
+
       h1{
         color:rgb(78, 23, 23);
         text-align: center;
@@ -15,8 +43,8 @@
           }
 
           label,button{
-            font-size: 20px;
-            color: rgb(158, 40, 40);
+            font-size: 25px;
+            color: rgb(10, 31, 37);
             text-align: center;
             width: 90%;
           
@@ -37,16 +65,21 @@ p{
 }
 
 
-  #botoes{
+  #botaoentrar{ background-color: blue;
     width: 40%;
+    color: blueviolet;
   }
 
+  #botaolimpar{ background-color: rgb(94, 107, 168);
+    width: 40%;
+    color: chartreuse;
+  }
 hr{
   width: 90%;
 }
 
 div {
-  background-color: rgb(13, 83, 83);
+  background-color: rgb(75, 150, 168);
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -55,6 +88,7 @@ div {
   border-style: solid;
   border-color: black;
   padding: 10px;
+
 
 }
       
