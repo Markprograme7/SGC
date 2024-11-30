@@ -12,14 +12,16 @@
 
     <p>in this case javaScript changes the value of the src (source) attribute of an image.</p>
 
-    <button onclick="document.getElementById('myImage').src='lampadaApagada.jpg'">
-        tum on the light
-    </button>
+ 
 
-    <img id="myImage" src="lampadaApagada.jfif" style="width: 100px">
+    <img id="apagado" src="lampadaApagada.jfif" style="width: 100px;display:none"
+    onclick="document.getElementById('apagado').style.display = 'none'
+    document.getElementById('acesa').style.display = 'block'">
 
-    <button onclick="document.getElementById('myImage').src='lampadaAcesa.jpg'">
-        tum off the light
-    </button>
+<img id="acesa" src="lampadaAcesa.jfif" style="width: 100px;display:block"
+onclick="document.getElementById('acesa').style.display = 'none'
+document.getElementById('apagado').style.display = 'block'">
+
+   
 </body>
 </html>
