@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>base calculadora</title>
+</head>
+<body>
+<h1>Variaveis em JAVASCRIPT </h1>
+<p> Calculo valores com Variaveis</p>
+<p id="soma"></p>
+<p id="sub"></p>
+<p id="div"></p>
+<p id="mult"></p>
+<script>
+    const valor1 = 100;
+    const valor2 = 50;
+    
+    
+    let total = valor1 + valor2; 
+    document.getElementById("soma").innerHTML =
+    "A soma dos valores e " + total;
+    
+    total = valor1- valor2;
+    document.getElementById("sub").innerHTML =
+    "A sub dos valores e " + total;
+
+    total = valor1 / valor2;
+    document.getElementById("div").innerHTML =
+    "A div dos valores e " + total;
+
+    total = valor1 * valor2;
+    document.getElementById("mult").innerHTML =
+    "A mult dos valores e " + total;
+</script>
+
+    
+</body>
+</html>
